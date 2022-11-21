@@ -3,6 +3,6 @@
     {"src": "/webauth.py", "use": "@vercel/python"}
   ],
   "routes": [
-    {"src": "/(.*)", "dest": "api.py"}
+    {"src": "/(.*)", "dest": "webauth.py"}
   ]
 }
